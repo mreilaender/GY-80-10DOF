@@ -15,3 +15,6 @@ There are several dependencies which are the following:
   - https://github.com/adafruit/Adafruit_Python_GPIO
   - https://github.com/adafruit/Adafruit_Python_BMP
   - https://github.com/Taur-Tech/HMC5883L
+  - https://github.com/pimoroni/adxl345-python
+
+Aus https://github.com/bitify/raspi muss nur die l34200d.py ins Verzeichnis wo man sie verwenden will kopieren.
