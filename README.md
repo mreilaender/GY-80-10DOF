@@ -10,8 +10,3 @@ The GY-80 10DOF includes sundry sensors which are
   - HMC5883L
   - L3G4200D
 
-There are several dependencies which are the following:
-
-  - https://github.com/adafruit/Adafruit_Python_GPIO
-  - https://github.com/adafruit/Adafruit_Python_BMP
-  - https://github.com/Taur-Tech/HMC5883L
