@@ -1,3 +1,5 @@
+All rights reserved by Taur-Tech https://github.com/Taur-Tech/HMC5883L
+
 # HMC5883L
 Python library for Honeywell HMC5883L sensor
 
