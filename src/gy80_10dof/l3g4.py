@@ -13,14 +13,6 @@ import smbus
 # is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and limitations under the License.
 
-bus = smbus.SMBus(1)
-test = tmp.L3G4200D(bus, 0x69, "asd")
-
-#while True:
-test.read_raw_data()
-print "X: ", test.read_scaled_gyro_x()
-print "Y: ", test.read_scaled_gyro_y()
-print "Z: ", test.read_scaled_gyro_z()
 
 class L3G4200D(object):
     """
