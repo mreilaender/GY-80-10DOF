@@ -41,7 +41,7 @@ class BMP085(object):
             elif mode == "ULTRAHIGHRES":
                 self.bmp085 = BMP0852.BMP085(BMP0852.BMP085_ULTRAHIGHRES)
             else:
-                raise ValueError("Not basestring: Expected values doesn't match given value: " + mode)
+                raise ValueError("Given value doesn't match one of the expected ones " + mode)
         else:
             raise TypeError("Incompatible Types: Expected basestring given " + type(mode))
 
