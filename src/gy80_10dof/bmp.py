@@ -24,7 +24,7 @@ import Adafruit_Python_BMP.BMP085 as BMP0852
 
 class BMP085(object):
     # TODO Modi static variables
-    def __init__(self, mode, bus=1):
+    def __init__(self, mode="STANDARD", bus=1):
         """
         Constructor
 
