@@ -1,3 +1,7 @@
 venv/
 *.egg-info
 dist/
+build/
+doc/build
+doc/Makefile
+doc/source
