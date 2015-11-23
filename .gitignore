@@ -5,3 +5,4 @@ build/
 doc/build
 doc/Makefile
 doc/source
+src/gy80_10dof/*.pyc
