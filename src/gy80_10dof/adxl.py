@@ -37,6 +37,7 @@ class ADXL345(object):
 
         """
         self.adxl345 = adxl.ADXL345()
+        self.unit = "fG"
 
     def get_acceleration(self):
         """
